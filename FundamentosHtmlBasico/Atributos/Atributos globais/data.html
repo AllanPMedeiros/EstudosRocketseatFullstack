@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atributo data</title>
+</head>
+<body>
+    <!-- Exemplo do atributo data no css -->
+     <style>
+        /* Estiliza qualquer elemento que tenha o atributo data-class */
+        div[ data-class] {
+            font-family: cursive;
+            background-color: aquamarine;
+        }
+        /* Estiliza especificamente o elemento que tem o atributo data-class com o valor "calcado" */
+        div[ data-class="calcado"]{
+            font-size: 40px;
+            color: red;
+        }
+     </style>
+
+
+    <!-- Exemplo do atributo data em ação
+    O atributo data é um atributo global em HTML que permite armazenar informações personalizadas em elementos HTML. Ele é útil para associar dados adicionais a um elemento sem afetar a estrutura ou a apresentação do conteúdo. 
+    -->
+    <div data-class="vestimenta">Camisa</div>
+    <div data-class="calcado">Tenis</div>
+</body>
+</html>

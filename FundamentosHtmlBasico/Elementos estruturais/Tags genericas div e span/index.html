@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudo sobre div e span</title>
+</head>
+
+<style>
+    .red-bg{
+        background-color: red;
+        font-size: 20px;
+    }
+
+    .div-pai{
+        display: flex;
+        gap: 10px;
+        margin: 20px 0;
+    }
+
+    .div-filha{
+        background-color: lightblue;
+        padding: 10px;
+        border: 1px solid blue;
+    }
+
+    
+</style>
+
+<body>
+    <h1>Estudo de span e div</h1>
+
+    <div>
+        <p>A tag div é um elemento de bloco, ou seja, ela ocupa toda a largura disponível e inicia em uma nova linha. Ela é usada para agrupar outros elementos e aplicar estilos ou scripts a eles.</p>
+    </div>
+
+    <div>
+        <p>A tag div é um elemento de bloco, ou seja, ela ocupa toda a largura disponível e inicia em uma nova linha. Ela é usada para agrupar outros elementos e aplicar estilos ou scripts a eles. </p>
+    </div>
+
+  <span>Um texto ai</span>
+
+  <span>Outro texto ai</span>
+
+
+   <div class="div-pai">
+    <div class="div-filha">Filho 1</div>
+    <div class="div-filha">Filho 2</div>
+    <div class="div-filha">Filho 3</div>
+   </div>
+
+
+  <p>
+    Um texto <span class="red-bg">qualquer</span> aqui
+  </p>
+</body>
+</html>
